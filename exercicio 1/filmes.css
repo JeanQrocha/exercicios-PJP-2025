@@ -38,7 +38,7 @@ ul {
 img {
    margin-left: 45px;
 }
-li {
+section {
     margin: 15px;
     background-color: #b3b1b1;
     padding: 12px;
@@ -46,17 +46,13 @@ li {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    p { 
-        display: none;
-    }
+   
     
 }
-li:hover {
+section:hover {
     transform: scale(1.10); /* Aumenta o card em 5% */
     flex-grow: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra para destacar o card */
-    p {
-        display: block;
-    }
+   
 }
 
